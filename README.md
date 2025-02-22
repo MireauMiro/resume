@@ -11,4 +11,7 @@ Consider substituting the background pattern for more customization.
 
 After any customizations make sure to check your font/background colors for acceptable levels of contrast.
 
+Using the "print" function of your browser should also produce a relatively solid PDF that can be used for job applications.
+
 Other than that you should be able to copy/paste in your own info!
+
