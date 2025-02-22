@@ -1,0 +1,54 @@
+@media all and (max-width: 960px) {
+
+  section.personalStuff {flex-direction: column-reverse;}
+  
+  div.avatar {
+    width:100%;
+    max-width: 400px;
+    margin-bottom: 16px;
+  }
+
+  section.personalStuff {padding-bottom: 48px;}
+  .mobile {display: inherit !important;}
+  .desktop {display: none !important;}
+
+  div.namerino {
+    width:95%;
+  }
+
+  div.namerino h1 {
+    height: 85px;
+    padding-bottom: 12px;
+    margin-bottom:4px;
+    justify-content: center;
+  }
+
+  div.namerino div.theName hr {width:70%;border-top:3px solid #fff;}
+
+  div.namerino h2 {
+    font-size:28px;
+    letter-spacing: 2px;
+    padding-top:8px;
+    margin-bottom:0px;
+    justify-content: center;
+  }
+
+  div.actionCalls div.container {display: block;}
+  div.actionCalls a.btn,
+  div.actionCalls a.btn.mobile {
+    display: block;
+    width: 80%;
+    margin:32px auto 0 auto;
+    max-width: 320px;
+  }
+  div.actionCalls a.btn.mobile {}
+
+  div.actionCalls a:nth-of-type(2) {display: none;}
+
+  /* Header
+  -------------------------------------------------------------- */
+  .container.samples div div {width:100% !important;padding:20px 2.5%;display:block;margin-bottom: 20px;}
+  #titleOverview h1 {font-size:1.2em;}
+  .container.samples div div.width45left {margin-left:0%;}
+
+}

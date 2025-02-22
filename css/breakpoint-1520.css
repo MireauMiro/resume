@@ -1,0 +1,14 @@
+@media all and (max-width: 1420px) {
+
+  div.namerino h1 {
+    height:95px;
+  }
+
+  div.namerino h2 {
+    letter-spacing: 2px;
+    padding-top:16px;
+    margin-bottom:16px;
+  }
+
+}
+

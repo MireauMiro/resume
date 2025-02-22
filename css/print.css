@@ -1,0 +1,160 @@
+body {
+  color:#121212;
+  font-size: 12px;
+  line-height: 18px;
+  padding:0;
+}
+
+header {
+  position: relative;
+  padding: 0;
+}
+
+header div.container nav {display: none;}
+
+div.container {
+  padding:0;
+  margin:0;
+}
+
+.print {display: block !important;}
+
+hr.print {margin:20px 48px 10px 48px;}
+h2.print {
+  position: relative;
+  top: 0px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size:14px;
+  color:#555;
+  text-align: center;
+  margin:12px 0;
+}
+
+h2.print a {color:#333; padding:24px 0 12px 0;}
+h2.print a span {letter-spacing: 1px;}
+
+
+div.noPrint, p.noPrint {display: none !important;}
+
+div.actionCalls {display: none !important}
+
+div.avatar {display: none !important}
+
+div.skillBlock {display: none !important;} 
+
+div.toTop {display: none;}
+
+header {text-align: center;}
+header h1#logo {}
+header h1#logo a {color: #000;font-size:20px;}
+header a.print {margin-top:5px;font-size:12px;}
+
+section {padding: 0 !important;}
+
+section.personalStuff {
+  padding: 0;
+  width:100%;
+  text-align: left;
+}
+
+div.namerino h1 {
+  height:auto;
+  position: relative;
+  font-size:32px;
+  color:#000;
+  -webkit-text-fill-color:#000;
+  -webkit-background-clip: default;
+  margin:0;
+  display: block;
+}
+
+
+div.theName {
+  display: inline;
+  text-align: left;
+}
+
+div.namerino h2 {
+  position: relative;
+  padding:0;
+  /*margin:-20px 0 -10px 0;*/
+  margin:0;
+  font-size:20px;
+  border:0;
+  color:#999;
+  letter-spacing: 0;
+  display: block;
+  width:100%;
+  text-align: center;
+}
+
+div.namerino h2 span {margin-right:0;}
+
+#titleOverview {position:relative;top:-5px;}
+#titleOverview h1 {color:#000;font-size:16px;text-align: center;}
+#titleOverview span {display: inline;}
+#titleOverview em {display: inline;}
+
+.container.experienceContainer, .container.skillContainer, .container.education {
+    padding: 0 48px;
+  }
+
+section h2 {
+  font-size: 18px;
+  color:#000;
+  padding: 0;
+  margin:0;
+}
+section p, .container.experienceContainer > div {
+    margin-bottom: 10px;
+  }
+
+.container.experienceContainer > div > div {padding-left: 15px;}
+
+.container.experienceContainer strong {color: #777;}
+
+.container.experienceContainer h3 {
+  font-weight: 900;
+  color:#000;
+  font-size: 1em;
+  line-height: inherit;
+}
+
+.container.experienceContainer h4 {
+  color:#000;
+  font-weight: 900;
+  font-size: 1em;
+  margin-bottom: 0px;
+  padding:0;
+  border:0;
+}
+
+.container.skillContainer h3 {
+  color:#000;
+}
+
+.container.experienceContainer, 
+.container.skillContainer,
+.container.education {
+  border: 0;
+  box-shadow: none;
+}
+
+.container.skillContainer p {color:#121212;}
+
+.container.education p {font-size:12px;}
+
+.container.skillContainer {}
+
+.container.education img {display: none;}
+
+.container.education h2 {margin:0;padding: 0;}
+.container.education p {margin:0;padding: 0;}
+
+div.toTop {display: none !important;}
+
+/*.container.education p span:first-of-type {display: none;}
+.container.education p span {display: block;}*/
+
+section.caseStudySection {display: none;}
